@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  background-image: url(images/back1.jpg);
+
+  margin: 2px;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.menu ul li a:hover {
+ background-image: url(images/backhover.jpg);
+
+  border-radius: 8px;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+}
+
+.menu ul li:hover > ul {
+  display: block;
+}
+
+.menu ul ul ul {
+  margin-left: 120px;
+  top: 0;
+}
